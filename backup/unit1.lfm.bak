@@ -1,0 +1,21 @@
+object Form1: TForm1
+  Left = 238
+  Height = 323
+  Top = 145
+  Width = 400
+  Caption = 'Form1'
+  LCLVersion = '1.0.14.0'
+  object ZConnection1: TZConnection
+    ControlsCodePage = cCP_UTF8
+    AutoEncodeStrings = False
+    Connected = True
+    HostName = 'localhost'
+    Port = 0
+    Database = 'tugas'
+    User = 'root'
+    Protocol = 'mysql'
+    LibraryLocation = 'C:\wamp\bin\mysql\mysql5.1.36\bin\libmySQL.dll'
+    left = 48
+    top = 32
+  end
+end
